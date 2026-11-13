@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8ec">
+  <meta name="description" content="Tarjeta digital personal, académica y profesional editable.">
+  <title>Mi perfil | Tarjeta académica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <!-- Encabezado decorativo -->
+    <header class="site-header" id="inicio">
+      <a class="profile-handle" href="#inicio" aria-label="Ir al inicio">
+        <span class="handle-icon" aria-hidden="true">♡</span>
+        <span>@mi.perfil</span>
+      </a>
+      <div class="header-title">
+        <p class="eyebrow">mi rincón personal</p>
+        <h1>Un poquito sobre mí</h1>
+      </div>
+      <div class="header-doodles" aria-hidden="true">
+        <span class="doodle-cat">ฅ</span>
+        <span class="doodle-star">✦</span>
+        <span class="doodle-heart">♡</span>
+      </div>
+    </header>
+
+    <main>
+      <!-- Tarjeta de presentación -->
+      <section class="intro-card paper-card" aria-labelledby="profile-name">
+        <div class="intro-sparkle sparkle-one" aria-hidden="true">✦</div>
+        <div class="profile-photo-wrap">
+          <img class="profile-photo" src="img/perfil.jpg" alt="Ilustración provisional para reemplazar por una foto de perfil">
+          <span class="photo-badge" aria-hidden="true">♡</span>
+        </div>
+        <div class="intro-copy">
+          <p class="eyebrow">¡hola, qué gusto verte!</p>
+          <h2 id="profile-name">SOFIA VALENCIA SANTA</h2>
+          <p class="intro-description">Soy sofia, y me gusta mucho descubrir cosas nuevas</p>
+          <div class="status-note"><span aria-hidden="true">✿</span>Hola mundo</div>
+          <p class="study-line"><span aria-hidden="true">✎</span>Soy muy juiciosa, pero me distraigo muy rapido</p>
+        </div>
+        <div class="intro-stamp" aria-hidden="true">hello<br>there!</div>
+      </section>
+
+      <!-- Sobre mí -->
+      <section class="section-card about-section" id="sobre-mi" aria-labelledby="about-title">
+        <div class="section-heading">
+          <span class="heading-flower" aria-hidden="true">✿</span>
+          <div>
+            <p class="eyebrow">un espacio para presentarme</p>
+            <h2 id="about-title">Sobre mí</h2>
+            <p class="section-subtitle">Soy una persona muy alegre, atenta y curiosa</p>
+          </div>
+          <span class="heading-flower" aria-hidden="true">✿</span>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-note">
+            <span class="card-number">01 / presentación</span>
+            <h3>¡Un poco sobre mí!</h3>
+            <p class="small-prompt">Mi presentación personal</p>
+            <p class="editable-copy">Tengo 16 años y tengo muchas aspiraciones para mi futuro, con metas a corto mediano y largo plazo.</p>
+            <div class="quote-box"><span aria-hidden="true">♡</span>Soy alergica a la carne de cerdo</div>
+          </article>
+
+          <figure class="kitty-frame">
+            <div class="image-frame">
+              <img src="img/decoracion.jpg" alt="Ilustración decorativa de un gatito kawaii">
+            </div>
+            <figcaption>un detalle bonito para mi espacio ✧</figcaption>
+          </figure>
+
+          <article class="about-note academic-note">
+            <span class="card-number">02 / mi camino</span>
+            <h3>Mi vida académica</h3>
+            <p class="editable-copy">Aun estoy terminando el colegio, pero quiero estudiar Biologia </p>
+            <h4>Lo que sueño aprender</h4>
+            <p class="editable-copy">Me encanta el conocimiento y daber cosas nuevas, suele cambiar mucho de interes y hoobies</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Intereses y áreas de estudio -->
+      <section class="two-column-section" id="intereses" aria-label="Intereses y áreas de estudio">
+        <article class="section-card interest-card" aria-labelledby="interests-title">
+          <div class="section-heading compact-heading">
+            <span class="heading-flower" aria-hidden="true">✿</span>
+            <div>
+              <p class="eyebrow">cosas que me inspiran</p>
+              <h2 id="interests-title">Mis intereses</h2>
+            </div>
+          </div>
+          <div class="editable-list">
+            <article class="list-item">
+              <span class="interest-tag tag-peach">Interés 01</span>
+              <p>Me encanta la naturaleza y los animales, descubrir y ver especies es muy emocionante</p>
+              <span class="item-doodle" aria-hidden="true">♡</span>
+            </article>
+            <article class="list-item">
+              <span class="interest-tag tag-yellow">Interés 02</span>
+              <p>Me gustan los libros y la lectura, especialmente la literatura clasica</p>
+              <span class="item-doodle" aria-hidden="true">✦</span>
+            </article>
+            <article class="list-item">
+              <span class="interest-tag tag-green">Interés 03</span>
+              <p>Me interesan la investigación científica y el nuevo conocimiento</p>
+              <span class="item-doodle" aria-hidden="true">✿</span>
+            </article>
+          </div>
+        </article>
+
+        <article class="section-card areas-card" aria-labelledby="areas-title">
+          <div class="section-heading compact-heading">
+            <span class="heading-flower" aria-hidden="true">✿</span>
+            <div>
+              <p class="eyebrow">temas para explorar</p>
+              <h2 id="areas-title">Áreas que me interesan</h2>
+            </div>
+          </div>
+          <div class="editable-list">
+            <article class="list-item area-item">
+              <span class="interest-tag tag-lilac">Área 01</span>
+              <p>Biología</p>
+              <span class="item-doodle" aria-hidden="true">✧</span>
+            </article>
+            <article class="list-item area-item">
+              <span class="interest-tag tag-blue">Área 02</span>
+              <p>Química</p>
+              <span class="item-doodle" aria-hidden="true">♡</span>
+            </article>
+            <article class="list-item area-item">
+              <span class="interest-tag tag-pink">Área 03</span>
+              <p>Física</p>
+              <span class="item-doodle" aria-hidden="true">✦</span>
+            </article>
+          </div>
+        </article>
+      </section>
+
+      <!-- Aspiraciones educativas -->
+      <section class="section-card dreams-section" aria-labelledby="dreams-title">
+        <div class="section-heading">
+          <span class="heading-flower" aria-hidden="true">✿</span>
+          <div>
+            <p class="eyebrow">pasito a pasito hacia el futuro</p>
+            <h2 id="dreams-title">Mis aspiraciones educativas</h2>
+            <p class="section-subtitle">Mis ideas, mis metas y todo lo que quiero lograr.</p>
+          </div>
+          <span class="heading-flower" aria-hidden="true">✿</span>
+        </div>
+        <div class="dreams-grid">
+          <article class="dream-prompt"><span aria-hidden="true">📚</span><h3>¿Qué quiero estudiar?</h3><p>Quiero estudiar biologia 
+          </p></article>
+          <article class="dream-prompt"><span aria-hidden="true">🌷</span><h3>Mi carrera de interés</h3><p>Maestra o educadora</p></article>
+          <article class="dream-prompt"><span aria-hidden="true">🏫</span><h3>¿Dónde me gustaría estudiar?</h3><p>Universidad del valle</p></article>
+          <article class="dream-prompt"><span aria-hidden="true">✨</span><h3>Habilidades por desarrollar</h3><p>Quiero tener una mejor atención a las cosas</p></article>
+          <article class="dream-prompt dream-wide"><span aria-hidden="true">🌟</span><h3>Mis metas</h3><p>Mi meta hasta ahora es estudiar y convertirme en una profesional, quiero trabajar en el ambito de la investigacion cientifica de la naturaleza o ser profesora</p></article>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section class="contact-card" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-star" aria-hidden="true">✦</div>
+        <div>
+          <p class="eyebrow">¡sigamos en contacto!</p>
+          <h2 id="contact-title">Un saludo también es bonito ♡</h2>
+          <p>¡No dudes en escribirme!</p>
+        </div>
+        <a class="contact-link" href="mailto:tu-correo@ejemplo.com">✉ <span>Escríbeme</span></a>
+      </section>
+    </main>
+
+    <!-- Navegación inferior -->
+    <footer class="site-footer">
+      <p>hecho con cariño <span aria-hidden="true">♡</span></p>
+      <nav class="bottom-nav" aria-label="Navegación principal">
+        <a href="#inicio" aria-label="Ir al inicio"><span aria-hidden="true">⌂</span> Inicio</a>
+        <a href="#intereses"><span aria-hidden="true">✿</span> Mis intereses</a>
+        <a href="#sobre-mi"><span aria-hidden="true">♡</span> Sobre mí</a>
+      </nav>
+      <p class="footer-sparkle" aria-hidden="true">✧ · ✦</p>
+    </footer>
+  </div>
+</body>
+</html>
